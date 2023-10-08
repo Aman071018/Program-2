@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="smrt phone.css".css>
+    <title>E-commerce</title>
+</head>
+<hearder><marquee>Welcome! Happy shopping</marquee></hearder>
+<body>
+    <div class="navbar">
+        <a href="#product-grid">Home</a>
+        <a href="#footer">Contect Us</a>
+        <a href=file:///C:/Users/91743/OneDrive/Desktop/Program%202/phone%20page/register.html>Login</a>
+        <a href=file:///C:/Users/91743/OneDrive/Desktop/Program%202/phone%20page/register.html>Register</a>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <main>
+        <div class="cart">
+            <h3>Cart Value</h3>
+            <ul id="cart-list">
+            </ul>
+            <button onclick="viewCart()"><b>View Cart</b></button>
+        </div>
+
+        <div id="product-grid">
+
+            <div class="product">
+                <img src="C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\realme 7.png" alt="Product 1">
+                <h2><a href="#">Realme 7</a></h2>
+                <p class="product-price">Price: Rs 14999</p>
+                <button onclick="addToCart('Realme 7', 14999)">Add to Cart</button>
+                <button type="button" onclick="alert('Thank You for Buying Realme 7')">Buy Now</button>
+                <p><h3>Product description</h3><br>
+                    6 GB RAM | 64 GB ROM | Expandable Upto 256 GB
+                    16.51 cm (6.5 inch) Full HD+ Display
+                    64MP + 8MP + 2MP + 2MP | 16MP Front Camera
+                    5000 mAh Lithium-ion Battery
+                    MediaTek Helio G95 Processor
+                    </p>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\I phone15.png" alt="Product 2">
+                <h2><a href="#">Iphone 15</a></h2>
+                <p class="product-price">Price:Rs 88999</p>
+                <button onclick="addToCart('Iphone 15', 88999)">Add to Cart</button>
+                <button type="button" onclick="alert('Thank You for Buying Iphone 15')">Buy Now</button>
+                <p><h3>Product description</h3><br>
+                    128 GB ROM
+                    15.49 cm (6.1 inch) Super Retina XDR Display
+                    48MP + 12MP | 12MP Front Camera
+                    A16 Bionic Chip, 6 Core Processor Processor
+                    </p>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\Z7 pro.png" alt="Product 3">
+                <h2><a href="#">iqoo Z7pro</a></h2>
+                <p class="product-price">Price:Rs 25000</p>
+                <button onclick="addToCart('iqoo Z7pro', 25000)">Add to Cart</button>
+                <button type="button" onclick="alert('Thank You for Buying iqoo Z7')">Buy Now</button>
+                <p><h3>Product description</h3><br>
+                     8 GB RAM | 128 GB ROM
+                    16.21 cm (6.38 inch) Display
+                    64MP Rear Camera
+                    4500 mAh Battery
+                    </p>
+            </div>
+            
+            <div class="product">
+                <img src="C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\rog.png" alt="Product 3">
+                <h2><a href="#">Asus Rog 7</a></h2>
+                <p class="product-price">Price:Rs 60000</p>
+                <button onclick="addToCart('Asus Rog 7', 60000)">Add to Cart</button>
+                <button type="button" onclick="alert('Bhank You for Buying Asus Rog7')">Buy Now</button>
+                <P><h3>Product description</h3><br>
+                     8 GB RAM | 128 GB ROM
+                    15.24 cm (6 inch) Full HD+ Display
+                    12MP + 8MP | 8MP Front Camera
+                    4000 mAh Battery
+                    Qualcomm Speed-binned Snapdragon 845 Processor</P>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\realme 11 pro.png" alt="Product 3">
+                <h2><a href="#">Realme 11pro</a></h2>
+                <p class="product-price">Price:Rs 19999</p>
+                <button onclick="addToCart('Realme 11pro', 19999)">Add to Cart</button>
+                <button type="button" onclick="alert('Bhank You for Buying Realme 11pro')">Buy Now</button>
+                <p><h3>Product description</h3><br>
+                    8 GB RAM | 128 GB ROM
+                    17.02 cm (6.7 inch) Full HD+ Display
+                    100MP (OIS) + 2MP | 16MP Front Camera
+                    5000 mAh Battery
+                    Dimensity 7050 Processor
+                    </p>
+            </div>
+
+            <div class="product">
+                <img src="C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\one pluse 10r.png" alt="Product 3">
+                <h2><a href="#">One pluse 11r</a></h2>
+                <p class="product-price">Price:Rs 37999</p>
+                <button onclick="addToCart('One pluse 11r', 37999)">Add to Cart</button>
+                <button type="button" onclick="alert('Thank You for Buying Onepluse 11r')">Buy Now</button>
+                <p><h3>Product description</h3><br>
+                    16 GB RAM | 256 GB ROM
+                    17.02 cm (6.7 inch) Display
+                    50MP Rear Camera | 16MP Front Camera
+                    5000 mAh Battery
+                    </p>
+            </div>
+
+            <div class="product">
+                <img src= "C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\samsung s22.png"alt="Product 3">
+                <h2><a href="#">Samsung s22</a></h2>
+                <p class="product-price">Price:RS 99000</p>
+                <button onclick="addToCart('Samsung s22', 99000)">Add to Cart</button>
+                <button type="button" onclick="alert('Thank You for Buying Samsung s22')">Buy Now</button>
+                <p><h3>Product description</h3><br>
+                    8 GB RAM | 128 GB ROM
+                    15.49 cm (6.1 inch) Full HD+ Display
+                    50MP + 12MP + 10MP | 10MP Front Camera
+                    3700 mAh Lithium-ion Battery
+                    Snapdragon 8 Gen 1 Processor</p>
+            </div>
+
+            <div class="product">
+                <img src= "C:\Users\91743\OneDrive\Desktop\Program 2\photo\smartphone\realme master.png"alt="Product 3">
+                <h2><a href="#">Realme Master</a></h2>
+                <p class="product-price">Price:Rs 21000</p>
+                <button onclick="addToCart('Realme Master', 21000)">Add to Cart</button>
+                <button type="button" onclick="alert('Thank You for Buying Realme master')">Buy Now</button>
+                <p><h3>Product description</h3><br>
+                    8 GB RAM | 128 GB ROM
+                    16.33 cm (6.43 inch) Full HD+ Display
+                    64MP + 8MP + 2MP | 32MP Front Camera
+                    4300 mAh Battery
+                    Qualcomm Snapdragon 778G Processor
+                    </p>
+            </div>
+        </div>
+        <div class="scroll-buttons">
+            <button id="scroll-left">Previous</button>
+            <button id="scroll-right">Next</button>
+        </div>
+    </main>
+
+    <footer>
+        <footer id="footer">
+            <div class="social-links"><h2>Contact me</h2>
+                <a href="https://www.facebook.com/profile.php?id=100010400193379" target="_blank">Facebook</a>
+                <a href="https://instagram.com/_sharmaji_0718?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/aman-sharma-6b419523b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/AMANSHA071018" target="_blank">Twitter</a>
+                <a href="telephone" target="_blank">+91-7439880301</a>
+            </div>
+        </footer>
+    </footer>
+
+    <script>
+        function addToCart() {
+            alert('Product added to cart');
+        
+        }
+        let cart = [];
+
+        function addToCart(productName, productPrice) {
+            cart.push({ name: productName, price: productPrice });
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartList = document.getElementById('cart-list');
+            cartList.innerHTML = '';
+            let total = 0;
+
+            for (const item of cart) {
+                const listItem = document.createElement('li');
+                listItem.textContent = `${item.name} - Rs-${item.price}`;
+                cartList.appendChild(listItem);
+                total += item.price;
+            }
+
+            const totalItem = document.createElement('li');
+            totalItem.textContent = `Total: Rs-${total.toFixed(2)}`;
+            cartList.appendChild(totalItem);
+        }
+
+        function viewCart() {
+            alert('Items in Cart:\n' + cart.map(item => `${item.name} - Rs-${item.price}`).join('\n') + `\nTotal: Rs-${cart.reduce((total, item) => total + item.price, 0).toFixed(2)}`);
+        }
+
+        
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    body {
+        background-color: burlywood;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    form input[type="text"],
+    form input[type="password"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    
+    form input[type="submit"] {
+      background-color: #d81616;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <main>
+    <form id="login">
+      <center><h2>Login</h2></center>
+     
+      <label for="Customer">Username</label>
+      <input type="text" id="Admin" name="Customer-username" placeholder="Enter your Username" required><br><br>
+     
+      <label for="password">Password</label>
+      <input type="password" id="password" name="Customer-password" placeholder="Enter your password" required><br><br>
+    
+      <a href="http://127.0.0.1:5500/forget.html"><b>forget password</b></a>&nbsp;
+      <a href="http://127.0.0.1:5500/forget.html"><b>forget Username</b></a>&nbsp;<br><br>
+
+      <input type="submit" value="Login">
+    </form>
+  </main>
+</body>
+</html>
